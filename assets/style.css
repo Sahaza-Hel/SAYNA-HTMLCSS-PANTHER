@@ -35,3 +35,14 @@
 
 }
 @import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');
+
+:root{
+    --pastel-pink: #F2CEF2
+    --sub-gray: #9E91B7
+    --sub-pink:#DF99F2
+    --main-purple:#3D2DA6
+    --navy-blue:#07338C
+    --midnight-blue:#021740
+    --main-white:#FFFFFF
+
+}
