@@ -46,9 +46,6 @@
     --main-white:#FFFFFF
 
 }
-body{
-    background-color: rgb(8, 29, 69);
-}
 body .social {
     display: flex;
     flex-direction: column;
@@ -58,9 +55,10 @@ body .social {
     position: fixed;
 
 }
-.social:hover{
+body .social:hover{
     color: #ffffff;
-    
+
+
 }
 body .container{
     display:flex;
@@ -104,4 +102,35 @@ body .intro p{
 }
 body .float{
     float:right;
+}
+.perso{
+    display: flex;
+}
+section img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    float: left;
+    shape-outside: margin-box;
+    margin: 0 20px 5px 0;
+
+}
+.container-act{
+  background-color: #07338C;
+  max-width: 600px;  
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 10px 5px 5px rgb(8, 29, 69);
+
+}
+ h3{
+    font-family:'beynoregular';
+    color:#DF99F2;
+}
+ p{
+    font-family: 'Cantarell';
+    font-size: 15px;
+    color: #ffffff;
+    line-height: 1.2;
+    margin: 10px;
 }
