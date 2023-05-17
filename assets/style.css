@@ -55,7 +55,12 @@ body .social {
     align-items:baseline;
     padding: 25px;
     padding-right: 525px;
+    position: fixed;
 
+}
+.social:hover{
+    color: #ffffff;
+    
 }
 body .container{
     display:flex;
