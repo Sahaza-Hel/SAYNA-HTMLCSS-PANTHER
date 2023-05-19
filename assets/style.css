@@ -126,16 +126,7 @@ body .intro .intro-title .intro-detail {
 }
 
 .intro .float {
-    /* max-width: 500px;
-    max-height: 200px; */
-    /* background-image: url(./imgs/Accueil/Pantherhome1..png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100%; */
     max-width: 700px;
-    /* height: 700px; */
-
-
 }
 .perso {
     display: flex;
@@ -149,9 +140,6 @@ body .intro .intro-title .intro-detail {
 section .container-act img {
     width: fit-content;
     height: 200px;
-    /* object-fit: cover; */
-    /* float: left; */
-    /* shape-outside: margin-box; */
     margin-right: 1.5em;
 
 }
@@ -166,10 +154,8 @@ section .container-act img {
 
 .container-act:first-child img {
     transform: scale(1.2);
-    /* margin-right: 1.5em; */
+    
 }
-/* .container-act:first-child bio */
-
 
 .container-act:last-child {
     position: relative;
@@ -232,18 +218,29 @@ p {
 }
  .card{
     background-color: #ffffff;
-    padding: 20px;       
+    padding: 20px;      
 }
 .card h4{
-    font: lighter;
-    justify-content: center;
+    color: var(--midnight-blue);
+    position: inherit;
 }
 .card span{
-    display: flex;
+
+    padding: 10px 20px;
+    text-align: center;
+    margin: 4px 2px;
+    color: #ffffff;
+    background-color: var(--navy-blue);
+    border-radius: 16px;
+    border: 1px rgba(black, black, black, black);
 
 }
+.card li{
+    margin-top: 15px;
+    list-style: none;
+    color: var(--midnight-blue);
 
-
+}
 .bio-img {
     flex: 1;
     background-image: url(imgs/Accueil/Pantherhome2.png);
@@ -252,5 +249,30 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+footer{
+    background-image:url(imgs/Accueil/Pantherhome7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto 0 ;
+    padding: 15px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 15%;
+    color: var(--midnight-blue);
+    background-color: #ffffff;
+
+
+}
+.form input{
+    display: block;
+
 }
 
