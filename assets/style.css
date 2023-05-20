@@ -199,7 +199,6 @@ section .container-act img {
 }
 .history{
     margin-top: 10%;
-    padding-right: 15%;
     line-height: 1.5;
     font-family: 'cantarellregular';
 }
@@ -214,11 +213,12 @@ p {
     font-size: 15px;
     color: #ffffff;
     line-height: 1.2;
-    margin: 10px;
 }
  .card{
     background-color: #ffffff;
-    padding: 20px;      
+    padding: 20px; 
+    margin-top: 40%; 
+    margin-right: 15%;    
 }
 .card h4{
     color: var(--midnight-blue);
@@ -241,6 +241,7 @@ p {
     color: var(--midnight-blue);
 
 }
+
 .bio-img {
     flex: 1;
     background-image: url(imgs/Accueil/Pantherhome2.png);
@@ -271,8 +272,23 @@ footer{
 
 
 }
-.form input{
-    display: block;
+div input[type=text]{
+    width: 50%;
+    padding: 12px;
+    border: 1px solid var(--midnight-blue);
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    resize: vertical;
+}
+div input[type=sumbit]{
+    background-color: var(--sub-pink);
+    color: var(--main-white);
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+    padding: 20px;
+    
 
 }
-
