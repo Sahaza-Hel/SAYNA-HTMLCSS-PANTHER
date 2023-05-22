@@ -268,7 +268,7 @@ p {
     margin-right: 25%;
     border-radius: 15%;
     color: var(--midnight-blue);
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.4);
 
 
 }
@@ -290,6 +290,14 @@ input[type=submit]{
     border-radius: 15px;
     border: none;
 }
+.popupBox {
+    display: none;
+    padding: 20px;
+    background-color:#3d2da691;
+    color: white;
+    margin: 15px;
+    border-radius: 38px;
+  }
 footer{
     background: url(imgs/All-pages/back_footer.png);
     background-repeat: no-repeat;
@@ -300,6 +308,12 @@ footer{
     padding: 10px;
     display: flex;
     justify-content: space-between;
-
+}
+.logo1{
+    background-image: url(imgs/All-pages/footer1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5%;
+    margin: 15%;
 
 }
