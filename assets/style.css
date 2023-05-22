@@ -40,8 +40,8 @@
 
 @font-face {
     font-family: 'cantarellregular';
-    src: url('cantarell-regular-webfont.woff2') format('woff2'),
-         url('cantarell-regular-webfont.woff') format('woff');
+    src: url(font/cantarell-regular-webfont.woff2) format('woff2'),
+         url(font/cantarell-regular-webfont.woff) format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -289,4 +289,17 @@ input[type=submit]{
     margin-top: 15px;
     border-radius: 15px;
     border: none;
+}
+footer{
+    background: url(imgs/All-pages/back_footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.content{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+
+
 }
