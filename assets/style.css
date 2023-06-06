@@ -63,12 +63,11 @@ body .social {
     align-items: baseline;
     padding: 25px;
     padding-right: 525px;
-    position: fixed;
 
 }
 
 body .social:hover {
-    color: #ffffff;
+    color: var(--main-white); 
 
 
 }
