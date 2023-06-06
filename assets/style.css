@@ -79,7 +79,7 @@ body .container {
 }
 
 .nav-btn a {
-    color: #ffffff;
+    color: var(--main-white);
     font-family: 'beynoregular';
     padding: 15px 20px;
     text-decoration: none;
@@ -88,10 +88,6 @@ body .container {
 .nav-btn a:hover {
     color: var(--sub-pink);
     text-decoration: underline;
-}
-
-main {
-    margin-left: 10%;
 }
 
 body .intro .intro-title .blck-pth {
