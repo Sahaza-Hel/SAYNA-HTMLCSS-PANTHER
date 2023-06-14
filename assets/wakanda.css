@@ -141,24 +141,10 @@ footer{
 .contenu-footer1{
     padding-top: 100px;
 }
-.d2{
-    background:var(--navy-blue); 
-    position: relative;
-    right: -20%;
-    top: 50px;
-}
-.d4{
-    background:var(--pastel-pink); 
-    position: relative;
-    right: -28%;
-    top: -55px;
-}
-footer .d3 {
-   background:var(--sub-gray);
-    width: 150px;
-    border-radius: 50%;
-    position: relative;
-    right: -23%;
+.loader-container{
+    background: url(imgs/All-pages/footer1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 footer .d3:hover{
   cursor: pointer;
@@ -194,7 +180,7 @@ footer .pages-contenu a{
 }
 footer .pages-contenu a:hover{
   color: var(--sub-gray);
- border-bottom: 2px solid var(--main-white); 
+  text-decoration: underline;
 }
 footer .resaux-sociaux{
     margin-left: 40px;
@@ -218,3 +204,44 @@ footer .resaux-sociaux{
 .fin-de-page ul li{
   margin-left: 15px;
 }
+
+    /*enigme.css*/
+
+#défi{
+    margin-bottom: 80px;
+} 
+section img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    margin-top: -100px;
+}
+#défi.container-défi{
+    flex: 1;
+    padding: 1em;
+    justify-content: space-between;
+}
+.container-défi{
+    width: 450px;
+}
+.container-défi h2{
+    font-family: 'beynoregular';
+    font-size: 35px;
+    font-weight: lighter;
+    color: var(--sub-gray);
+    margin-top: 40px;
+}
+.description{
+    background-image: url(imgs/Enigme/Pantherenigme2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 450px;
+    width: 400px;
+}
+.description p{
+    font-family: 'cantarellregular';
+    color: var(--main-white);
+    font-size: 15px ;
+}
+
